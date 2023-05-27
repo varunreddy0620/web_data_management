@@ -1,0 +1,60 @@
+
+/* SAI ADITYA EDE         1002035418
+VARUN REDDY KOKKANTI   1002022689
+SAI LASYA YADALA       1002029134 */
+
+.view_profile{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+.view_profile img{
+    height: 104px;
+    margin-left: 30%;
+
+}
+.editperson{
+width: 79%;
+    margin-left: 5px;
+    padding-left: 5px;
+    overflow: scroll;
+    background-color: #CAD5E2;
+}
+.first_half{
+   
+   width: 100px;
+}
+.first_half div{
+    
+    
+        display: flex;
+        flex-direction: column;
+     
+        width: 200px;
+    
+    
+}
+.second_half div{
+    display: flex;
+    flex-direction: column;
+ 
+    /* width: 200px; */
+}
+.footer{
+    display: flex;
+    justify-content: end;
+    margin: 50px;
+    color: white;
+}
+.footer button{
+
+margin: 5px;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+background-color: #E21717;
+color: white;
+border-radius: 5px;
+cursor: pointer;
+}

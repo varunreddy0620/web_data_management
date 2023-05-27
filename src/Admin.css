@@ -1,0 +1,107 @@
+/* SAI ADITYA EDE         1002035418
+VARUN REDDY KOKKANTI   1002022689
+SAI LASYA YADALA       1002029134 */
+
+.admin_board{
+    background-color: #03203C;
+    height: 90vh;
+  
+}
+.first_header{
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
+}
+.second_header{
+    height:85%;
+   
+  
+   display: flex;
+   margin-right: 13px;
+}
+.sidebar1{
+    width: 15%;
+}
+.sidebar1 img{
+    height: 50px;
+    margin-left: 30%;
+    border-radius: 50%;
+
+}
+.sidebar2{
+    width: 85%;
+    margin-left: 5px;
+    height: 100%;
+    overflow: scroll;
+    background-color: #CAD5E2;
+}
+.sidebar_navigations{
+   height: 81%;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+.nav_tabs_div{
+   background-color: white;
+    min-height: 75px;
+    padding-left: 50px;
+    padding-top: 23px;
+    border: 1px solid #03203C;
+    cursor: pointer;
+}
+.nav_tabs_div_selected{
+    background-color: #CAD5E2;
+     min-height: 75px;
+     padding-left: 50px;
+     padding-top: 23px;
+     border: 1px solid #03203C;
+     cursor: pointer;
+ }
+
+/*  */
+ .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .subdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .subdiv label{
+    margin-top: 20px;
+  }

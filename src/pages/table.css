@@ -1,0 +1,95 @@
+
+/* 
+    SAI ADITYA EDE         1002035418
+VARUN REDDY KOKKANTI   1002022689
+SAI LASYA YADALA       1002029134 */
+    .table_container{
+        height: 500px;
+        overflow: scroll;
+        border: 1px solid black;
+        padding: 1rem;
+        cursor: pointer;
+    }
+    table {
+       
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        height: 100px;
+       
+      }
+      
+      table td, #customers th {
+        border: 1px solid  black;;
+        padding: 8px;
+      }
+      
+      table tr:nth-child(even){background-color: white;
+
+    }
+      
+      table tr:hover {background-color: #ddd;}
+     
+      th {
+        background: white;
+        text-align:left;
+        padding: 8px;
+        border: 1px solid black;
+        text-transform: capitalize;
+        position: sticky;
+        top: 0; /* Don't forget this, required for the stickiness */
+        box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+      }
+      /* table th {
+        position: sticky;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #04AA6D;
+        color: white;
+      } */
+      /* table {
+        text-align: left;
+        position: relative;
+        border-collapse: collapse; 
+      }
+      th, td {
+        padding: 0.25rem;
+      }
+      tr.red th {
+        background: red;
+        color: white;
+      }
+      tr.green th {
+        background: green;
+        color: white;
+      }
+      tr.purple th {
+        background: purple;
+        color: white;
+      } */
+      /* th {
+        background: white;
+        position: sticky;
+        top: 0; /* Don't forget this, required for the stickiness */
+        /* box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+     */
+
+     .family_details{
+      width: 80%;
+      overflow: scroll;
+      margin: 10px;
+     }
+     .Create {
+      display: flex;
+      justify-content: end;
+      padding: 30px;
+      
+  }
+  .Create button {
+    background-color: #1C8D73;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    border: 1px solid white;
+}
